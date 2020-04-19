@@ -14,7 +14,7 @@ class RankerSpider(scrapy.Spider):
                 }
                 splash:set_custom_headers(headers)
                 assert(splash:go(url))
-                assert(splash:wait(1))
+                assert(splash:wait(2.5))
                 roll_no = %s
                 input_no = splash:select("#roll_no")
                 input_no:focus()
