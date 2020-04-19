@@ -26,4 +26,4 @@ Open Command Prompt in the Root directory of the Project folder. Use following c
   </li>
 </ul>
 NOTE :<br>
-To execute above command, you should have Scrapy and Splash installed.<br>
+To execute above command, you should have Scrapy and Splash or Selenium installed.<br>
